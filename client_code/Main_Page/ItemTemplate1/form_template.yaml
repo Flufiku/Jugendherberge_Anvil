@@ -1,0 +1,7 @@
+components:
+- layout_properties: {full_width_row: false, grid_position: 'VBDOVI,ESBLJN'}
+  name: label_1
+  properties: {}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true

@@ -1,0 +1,12 @@
+unique_ids:
+  assets:
+    standard-page.html: DIN5RHHZEYERYGK4WYO7MVDMBIHAKTE5
+    theme.css: SSWFBVHTADSUICBTR7ZF3APRZLBZDM55
+  forms:
+    Main_Page: FAUF43MQ6TAPRWJ7RSWGMHXOAR4EXST5
+    Main_Page.ItemTemplate1: '1731253606415133760692352.31358'
+    Main_Page.RowTemplate1: '1730706019327884646735875.3494'
+  modules: {}
+  scripts: {}
+  server_modules:
+    Database_Server: '1728466388262519672123656.9604'

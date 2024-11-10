@@ -1,0 +1,64 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'DJSIRF,VWWOKX'}
+    name: label_1
+    properties: {text: 'Name:'}
+    type: Label
+  - event_bindings: {change: drop_down_guest_change}
+    layout_properties: {grid_position: 'OBDLPV,GBGRHT'}
+    name: drop_down_guest
+    properties: {align: full}
+    type: DropDown
+  - layout_properties: {grid_position: 'MKXZGR,NMJKYJ'}
+    name: label_2
+    properties: {text: 'Jugendherberge:'}
+    type: Label
+  - event_bindings: {change: drop_down_herberge_change}
+    layout_properties: {grid_position: 'FNOTON,FPZQHW'}
+    name: drop_down_herberge
+    properties: {}
+    type: DropDown
+  - layout_properties: {grid_position: 'SWMGUZ,XEXYWM'}
+    name: label_3
+    properties: {text: 'Zimmer:'}
+    type: Label
+  - event_bindings: {change: drop_down_room_change}
+    layout_properties: {grid_position: 'TLQPAC,VEUHLN'}
+    name: drop_down_room
+    properties: {}
+    type: DropDown
+  - layout_properties: {grid_position: 'MCYWBC,HKGJXY'}
+    name: label_4
+    properties: {text: 'Weitere Personen hinzufügen:'}
+    type: Label
+  - event_bindings: {change: drop_down_extra_guest_change}
+    layout_properties: {grid_position: 'AWLQHK,BFUWUT'}
+    name: drop_down_extra_guest
+    properties: {enabled: true}
+    type: DropDown
+  - event_bindings: {click: outlined_button_extra_guest_click}
+    layout_properties: {grid_position: 'AWLQHK,QJTQJC'}
+    name: outlined_button_extra_guest
+    properties: {role: outlined-button, text: Person hinzufügen}
+    type: Button
+  - layout_properties: {grid_position: 'SJTVHB,BPKAPP'}
+    name: label_extra_guest
+    properties: {}
+    type: Label
+  - layout_properties: {full_width_row: false, grid_position: 'YZNGJP,GKUFNI'}
+    name: label_price
+    properties: {align: right, bold: true, text: 'Preis: 0,00€'}
+    type: Label
+  - event_bindings: {click: outlined_button_book_click}
+    layout_properties: {grid_position: 'YZNGJP,JGBURS'}
+    name: outlined_button_book
+    properties: {role: outlined-button, text: Buchen}
+    type: Button
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
